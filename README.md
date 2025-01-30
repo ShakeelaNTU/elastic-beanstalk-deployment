@@ -2,17 +2,13 @@
 
 Elastic Beanstalk - New Version Deployment
 
-Overview
-
 This document contains the CLI commands used to create a new version package bundle and deploy it to AWS Elastic Beanstalk.
 
 Steps to Create and Deploy a New Version
 
 1. Modify the Application Code
 
-Make necessary changes to your app.py file or any other relevant files in your application.
-
-Example: Updating the homepage text in app.py:
+Updating the homepage text in app.py:
 
 @app.route('/')
 def home():
